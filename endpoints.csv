@@ -1,0 +1,9 @@
+OperationID,Path,Method
+AssociateApprovedOrigin,/instance/{InstanceId}/approved-origin,PUT
+AssociateInstanceStorageConfig,/instance/{InstanceId}/storage-config,PUT
+AssociateLambdaFunction,/instance/{InstanceId}/lambda-function,PUT
+AssociateLexBot,/instance/{InstanceId}/lex-bot,PUT
+AssociateRoutingProfileQueues,/routing-profiles/{InstanceId}/{RoutingProfileId}/associate-queues,POST
+AssociateSecurityKey,/instance/{InstanceId}/security-key,PUT
+TagResource,/tags/{resourceArn},POST
+UntagResource,/tags/{resourceArn},DELETE
