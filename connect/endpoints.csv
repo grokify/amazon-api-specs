@@ -5,5 +5,17 @@ AssociateLambdaFunction,/instance/{InstanceId}/lambda-function,PUT
 AssociateLexBot,/instance/{InstanceId}/lex-bot,PUT
 AssociateRoutingProfileQueues,/routing-profiles/{InstanceId}/{RoutingProfileId}/associate-queues,POST
 AssociateSecurityKey,/instance/{InstanceId}/security-key,PUT
+CreateContactFlow,/contact-flows/{InstanceId},PUT
+CreateInstance,/instance,PUT
+CreateIntegrationAssociation,/instance/{InstanceId}/integration-associations,PUT
+CreateQuickConnect,/quick-connects/{InstanceId},PUT
+CreateRoutingProfile,/routing-profiles/{InstanceId},PUT
+CreateUseCase,/instance/{InstanceId}/integration-associations/{IntegrationAssociationId}/use-cases,PUT
+CreateUser,/users/{InstanceId},PUT
+CreateUserHierarchyGroup,/user-hierarchy-groups/{InstanceId},PUT
+GetContactAttributes,/contact/attributes/{InstanceId}/{InitialContactId},GET
+GetCurrentMetricData,/metrics/current/{InstanceId},POST
+GetFederationToken,/user/federate/{InstanceId},GET
+GetMetricData,/metrics/historical/{InstanceId},POST
 TagResource,/tags/{resourceArn},POST
 UntagResource,/tags/{resourceArn},DELETE
