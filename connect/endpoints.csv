@@ -13,6 +13,12 @@ CreateRoutingProfile,/routing-profiles/{InstanceId},PUT
 CreateUseCase,/instance/{InstanceId}/integration-associations/{IntegrationAssociationId}/use-cases,PUT
 CreateUser,/users/{InstanceId},PUT
 CreateUserHierarchyGroup,/user-hierarchy-groups/{InstanceId},PUT
+DeleteInstance,/instance/{InstanceId},DELETE
+DeleteIntegrationAssociation,/instance/{InstanceId}/integration-associations/{IntegrationAssociationId},DELETE
+DeleteQuickConnect,/quick-connects/{InstanceId}/{QuickConnectId},DELETE
+DeleteUseCase,/instance/{InstanceId}/integration-associations/{IntegrationAssociationId}/use-cases/{UseCaseId},DELETE
+DeleteUser,/users/{InstanceId}/{UserId},DELETE
+DeleteUserHierarchyGroup,/user-hierarchy-groups/{InstanceId}/{HierarchyGroupId},DELETE
 GetContactAttributes,/contact/attributes/{InstanceId}/{InitialContactId},GET
 GetCurrentMetricData,/metrics/current/{InstanceId},POST
 GetFederationToken,/user/federate/{InstanceId},GET
